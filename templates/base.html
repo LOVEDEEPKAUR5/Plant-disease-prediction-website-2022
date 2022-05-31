@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/bttn.css/0.2.4/bttn.css">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+    <title> {% block pagetitle %}
+
+        {% endblock pagetitle %}</title>
+    <style type="text/css"> 
+      h1
+      {
+        font-size:32px;
+        margin-top:0;
+        font-family:Arial, sans-serif;
+        text-shadow:2px 0 15px #292929;
+        letter-spacing:4px;
+        text-decoration:none;
+        color:#DDD;
+      }
+
+      #banner-content
+      {
+        text-align:center;
+        border-radius:5px;
+        margin:90px auto auto;
+        padding:80px 0;
+
+      }
+      .content
+      {
+        background-color:rgba(255,255,255,0.6);
+        border-radius:3px;
+        box-shadow:rgba(0,0,0,0.2) 0 1px 3px;
+        font-family:Sintony, sans-serif;
+        font-size:20px;
+      }
+    </style>
+
+    </head>
+
+    <body style="padding-top: 50px;">
+        <!-- Header -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="base.html" style="padding-top: 2%;font-weight: 400;">🍁Fruit Plant Disease Detection System🍁</a>
+                </div>
+            </div>
+        </div>
+        <!--Header end-->
+
+        <div id="content">
+            <!--Main banner image-->
+            <div id = "banner_image">
+                <div class="container"> 
+                    <center>
+                        <div id="banner_content">
+                          <h1>Welcome to our website Fruit Plant Disease Detection</h1>
+                          <p class="content">Save plants now, they will save you in the future.</p>
+                          <a  href="login.html" class="btn btn-primary btn-lg active">Get Started</a>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row text-center" id="item_list">
+                    <h1 class="text-center font-weight-bold ">ABOUT US</h1>
+                    <br>
+      
+                    <div class="col-sm-4" >
+                            <div class="thumbnail">
+                                <img src="images/lovedeep.jpeg" alt="" style="height: 400px; max-width: 400px;">
+                                <div class="caption">
+                                <a href="https://www.linkedin.com/in/lovedeep-kaur-9952651a1/">
+                                    <h3>Lovedeep Kaur</h3>
+                                </a>
+                                    <p>Web developer</p>
+                                </div>
+                            </div> 
+                    </div>
+
+                    <div class="col-sm-4">
+                            <div class="thumbnail">
+                                <img src="images/lalita.jpeg" alt="" style="height: 400px; max-width: 400px;">
+                                <div class="caption">
+                                <a href="https://www.linkedin.com/in/lalita-sharma-3ba39a180">
+                                    <h3>Lalita Sharma</h3>
+                                </a>
+                                    <p>Flutter Developer</p>
+                                </div>
+                            </div> 
+                    </div>
+
+                    <div class="col-sm-4">
+                            <div class="thumbnail">
+                                <img src="images/palvi.jpeg" alt="" style="height: 400px; max-width: 200px;">
+                                <div class="caption">
+                                <a href="products.html#shirts">
+                                    <h3>Palvi Devi</h3>
+                                </a>
+                                    <p>ML Developer</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <!--Item categories listing end-->
+        </div>
+
+        <!--Footer-->
+        <footer>
+            <div class="container">
+                <center>
+                    <p>Copyright &copy; Plant Disease Prediction |  Contact Us: +91 90000 00000</p> 
+                </center>
+            </div>
+        </footer>
+        <!--Footer end-->
+
+    </body>
+</html>
