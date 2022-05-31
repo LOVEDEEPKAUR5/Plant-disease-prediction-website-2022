@@ -1,7 +1,7 @@
 # Plant-Disease-Diagnosis-Flask
 Online Flask Web App for Plant Disease Diagnosis from Images <br>
 
-<img src="demo.png" width="600" height="300"/><br><br>
+<img src="Demo.png" width="600" height="300"/><br><br>
 
 ## Required Tools
 ```
